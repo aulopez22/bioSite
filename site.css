@@ -4,7 +4,7 @@ body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-header {
+body {
     background-color: #000000 ;
     color: #fff;
     padding: 20px;
@@ -23,7 +23,7 @@ h1 {
 }
 
 #navbar a {
-    float: center;
+    float: left;
     display: block;
     color: #fff;
     text-align: center;
@@ -35,9 +35,31 @@ h1 {
     background-color: #0D9603;
     color:#000000;
 }
+.column 1 {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+}
 
-img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+.left {
+  width: 55%;
+  background color:#fff;
+}
+
+.right {
+  width: 45%;
+  background-color:#0D9603;
+  color: #000000;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img 1 {
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
