@@ -35,6 +35,10 @@ h1 {
     background-color: #0D9603;
     color:#000000;
 }
+
+* {
+  box-sizing: border-box;
+  }
 .column 1 {
   float: left;
   padding: 10px;
