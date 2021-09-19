@@ -52,12 +52,40 @@ h1 {
   color: #000000;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
+.img 1 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.column 2 {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+}
+
+.left {
+  width: 55%;
+  background color:#fff;
+}
+
+.right {
+  width: 45%;
+  background-color:#0D9603;
+  color: #000000;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .img 1 {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
